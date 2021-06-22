@@ -1,13 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charuka Samarakoon :: @charukahs</title>
+</head>
+
+<body class="bg-secondary font-body">
+
+  <!-- Landing Section -->
+  <section id="landing" class="flex flex-col items-center justify-center h-screen">
+    <!-- Main Content -->
+    <span class="text-center text-primary">
+      <img src="./portrait.jpg" alt="Portrait" class="w-40 h-40 mx-auto rounded-full">
+      <h1 class="mt-4 text-3xl font-normal tracking-widest">Charuka Samarakoon</h1>
+      <h3 class="-mt-1 text-xl font-light tracking-widest">@charukahs</h3>
+    </span>
+
+    <!-- Social Media -->
+    <span class="flex flex-row flex-wrap items-center justify-center px-12 my-8">
+      <a href="#contact"><img src="./phone.svg" alt="Phone Icon" class="px-5 py-2"></a>
+      <a href="#contact"><img src="./mail.svg" alt="Mail Icon" class="px-5 icon-scroll"></a>
+      <a href="https://github.com/CharukaHS/" target="_blank"><img src="./Github.svg" alt="Github Icon"
+          class="px-5 py-2"></a>
+      <a href="https://www.linkedin.com/in/charuka-samarakoon-64822297/" target="_blank"><img src="./LinkedIn.svg"
+          alt="LinkedIn Icon" class="px-5 py-2"></a>
+      <a href="https://twitter.com/CharukaHS" target="_blank"><img src="./Twitter.svg" alt="Twitter Icon"
+          class="px-5 py-2"></a>
+      <a href="https://www.facebook.com/charukahs/" target="_blank"><img src="./facebook.svg" alt="Facebook Icon"
+          class="px-5 py-2"></a>
+      <a href="https://www.instagram.com/charukahs/" target="_blank"><img src="./instagram.svg" alt="Instagram Icon"
+          class="px-5 py-2"></a>
+    </span>
+
+    <!-- See More -->
+    <a href="#about"><img src="./chevron_duo_down.svg" alt="Down Button" class="absolute bottom-12"></a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="flex flex-col justify-center p-16 bg-secondary text-primary">
+    <div class="max-w-3xl mx-auto">
+      <h3 class="text-xl text-justify">
+        I'm Charuka Hiran Samarakoon, also going with tags @charukahs and @rxbbit, 23 years old,
+        lives in Ratnapura, Sri Lanka. Currently pursuing BSc in Electrical and Information Engineering in University of
+        Ruhuna, Faculty of Engineering (3rd year).
+      </h3>
+
+      <h3 class="mt-4 text-xl text-justify">
+        Started coding few years ago and currently work as a part time freelancer in fullstack + mobile app development.
+      </h3>
+
+      <h3 class="mt-4 text-xl text-justify">
+        Most using frameworks for front end development is react (next.js) for web and react-native for mobile
+        applications.
+        For the backend mostly using nodejs, I'm fluent with js/ts, python, good exposure in c, c++, c# and I'm learning
+        golang and rust in my free time.
+      </h3>
+
+      <h3 class="mt-4 text-xl text-justify">
+        At this time, this portfolio is in very early stage and in future I'll showcase my projects (some are already in
+        <a href="https://github.com/CharukaHS/" class="underline" target="_blank">Github</a>), academic
+        qualifications and other stuff below :)
+      </h3>
+
+      <h3 class="mt-4 text-xl text-justify">
+        Thank you!
+      </h3>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section id="contact" class="flex flex-col justify-center p-16 text-center bg-secondary text-primary">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="mb-12 text-3xl">Contact Info</h1>
+
+      <div class="flex flex-col my-2 text-xl text-left">
+        <span class="flex flex-row">
+          <img src="./phone.svg" alt="Phone Icon" class="px-5 icon-scroll">
+          +94782075897
+        </span>
+
+        <span class="flex flex-row my-2">
+          <img src="./phone.svg" alt="Phone Icon" class="px-5 icon-scroll">
+          <a href="https://wa.me/94782075897" class="underline"> whatsapp</a>
+        </span>
+
+        <span class="flex flex-row my-2">
+          <img src="./mail.svg" alt="Mail Icon" class="px-5 icon-scroll">
+          charuka@pm.me
+        </span>
+
+        <span class="flex flex-row my-2">
+          <img src="./discord.svg" alt="Discord Icon" class="px-5 icon-scroll">
+          yxka#9995
+        </span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <Footer class="flex flex-row justify-between px-16 py-4 text-sm bg-primary text-secondary">
+    <span>
+      <p>charukahs© 2021</p>
+      <p>view source in <a href="https://github.com/CharukaHS/charukahs.com" target="_blank"
+          class="underline">Github</a></p>
+    </span>
+    <span>
+      <p>icons are by <a href="https://coolicons.cool/" class="underline" target="_blank">coolicons</a></p>
+    </span>
+
+  </Footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
