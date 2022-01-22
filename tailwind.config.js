@@ -1,19 +1,15 @@
 module.exports = {
-  purge: ['./index.html'],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./index.html"],
   theme: {
     extend: {
       colors: {
-        secondary: '#f8f8f8',
-        primary: '#2e3a59'
+        secondary: "#f8f8f8",
+        primary: "#2e3a59",
       },
       fontFamily: {
-        'body': ['Roboto', 'sans-serif']
-      }
+        body: ["Roboto", "sans-serif"],
+      },
     },
   },
-  variants: {
-    extend: {},
-  },
   plugins: [],
-}
+};
