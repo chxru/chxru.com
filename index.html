@@ -65,57 +65,165 @@
     <!-- About Section -->
     <section
       id="about"
-      class="flex flex-col justify-center p-16 bg-secondary text-primary"
+      class="flex flex-col justify-center max-w-2xl px-2 pt-16 mx-auto bg-secondary text-primary"
     >
-      <div class="max-w-3xl mx-auto">
-        <h3 class="text-xl text-justify">
-          I'm Charuka Samarakoon, also known as @chxru and @charukahs, 24 years
-          old, lives in Ratnapura, Sri Lanka. Currently pursuing BSc in
-          Electrical and Information Engineering in University of Ruhuna,
-          Faculty of Engineering, Sri Lanka.
-        </h3>
+      <h3 class="text-xl text-justify">
+        I'm Charuka Samarakoon, also known as @chxru and @charukahs, 24 years
+        old, lives in Ratnapura, Sri Lanka. Currently pursuing BSc in Electrical
+        and Information Engineering in University of Ruhuna, Faculty of
+        Engineering, Sri Lanka.
+      </h3>
 
-        <h3 class="mt-4 text-xl text-justify">
-          Started coding few years ago as a self-learning and curious kid and
-          currently work as a full time student, part time freelancer in
-          fullstack and mobile app development.
-        </h3>
+      <h3 class="mt-4 text-xl text-justify">
+        Started coding few years ago as a self-learning and curious kid and
+        currently work as a full time student, part time freelancer in fullstack
+        and mobile app development.
+      </h3>
+
+      <div
+        class="flex flex-col justify-around mt-8 text-lg text-center sm:flex-row"
+      >
+        <a
+          href="https://www.linkedin.com/in/charukahs/"
+          class="px-4 py-2 rounded-md cursor-pointer bg-primary text-secondary"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <!-- TODO: Add CV Link -->
+        <a
+          href="#"
+          class="px-4 py-2 my-2 rounded-md cursor-pointer sm:my-0 bg-primary text-secondary"
+          target="_blank"
+          >Curriculum Vitae</a
+        >
+        <a
+          href="https://github.com/chxru"
+          class="px-4 py-2 rounded-md cursor-pointer bg-primary text-secondary"
+          target="_blank"
+          >Github
+        </a>
       </div>
+    </section>
+
+    <!-- Projects -->
+    <section
+      id="projects"
+      class="flex flex-col justify-center max-w-2xl px-2 pt-16 mx-auto bg-secondary text-primary"
+    >
+      <h2 class="mb-8 text-3xl font-bold tracking-widest">
+        <a href="#projects">Projects</a>
+      </h2>
+
+      <div class="p-4 border-2 rounded-md border-primary">
+        <h4 class="text-2xl font-semibold">DTMS</h4>
+        <h5 class="font-light text-md">Dockyard Transport Management System</h5>
+
+        <h5 class="mt-4 text-justify">
+          DTMS is a uber-like service made specially for the vehicles and
+          employees who worked in the Dockyard PLC Colombo. Through this
+          collaborative project, we aim to automate the traditional vehicle
+          requesting method used in the dockyard by providing mobile
+          applications for vehicle service providers and consumers.
+        </h5>
+
+        <h5 class="mt-2 text-justify">
+          For the administration of the dockyard, DTMS provides vehicle
+          tracking, employee status checking, employee management services via a
+          web application.
+        </h5>
+
+        <h5 class="mt-2">
+          Technologies
+          <ul class="ml-16 list-disc">
+            <li>Next.js (Based on react)</li>
+            <li>React Native</li>
+            <li>Firebase (Google cloud platform)</li>
+          </ul>
+        </h5>
+      </div>
+
+      <div class="p-4 mt-4 border-2 rounded-md border-primary">
+        <h4 class="flex text-2xl font-semibold">
+          PMS
+          <a href="https://github.com/pms-lk/" target="_blank"
+            ><img src="./Github.svg" alt="Github Icon" class="pl-4"
+          /></a>
+        </h4>
+        <h5 class="font-light text-md">Patient Management System</h5>
+
+        <h5 class="mt-4 text-justify">
+          PMS is a open source software made for storing and managing sensitive
+          data such as patient details of a medical center / hospital securely.
+          Data is being stored encrypted in industry standard AES-256 for
+          maximum security.
+        </h5>
+
+        <h5 class="mt-2 text-justify">
+          This project is started as a request came from Karapitiya Hospital
+          Pediatric ward and Hambantota Hospital Psychiatric ward and currently
+          in alpha stage.
+        </h5>
+
+        <h5 class="mt-2">
+          Technologies
+          <ul class="ml-16 list-disc">
+            <li>Next.js (Based on react)</li>
+            <li>Node JS</li>
+            <li>Express JS</li>
+            <li>Postgres</li>
+            <li>GoLang</li>
+          </ul>
+        </h5>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section
+      id="blog"
+      class="flex flex-col justify-center max-w-2xl px-2 pt-16 mx-auto bg-secondary text-primary"
+    >
+      <h2 class="mb-8 text-3xl font-bold tracking-widest">
+        <a href="#blog">Blog Posts</a>
+      </h2>
+
+      <h3>Coming Soon :)</h3>
     </section>
 
     <!-- Contacts -->
     <section
       id="contact"
-      class="flex flex-col justify-center p-16 text-center bg-secondary text-primary"
+      class="flex flex-col justify-center max-w-2xl px-2 py-16 mx-auto bg-secondary text-primary"
     >
-      <div class="max-w-3xl mx-auto">
-        <h1 class="mb-12 text-3xl">Contact Info</h1>
+      <h2 class="mb-8 text-3xl font-bold tracking-widest">
+        <a href="#contact">Contact Info</a>
+      </h2>
 
-        <div class="flex flex-col my-2 text-xl text-left">
-          <span class="flex flex-row">
-            <img src="./phone.svg" alt="Phone Icon" class="px-5 icon-scroll" />
-            +94782075897
-          </span>
+      <div
+        class="flex flex-col flex-wrap items-center justify-center my-2 text-xl text-left sm:flex-row"
+      >
+        <span class="flex flex-row w-1/2">
+          <img src="./phone.svg" alt="Phone Icon" class="px-5 icon-scroll" />
+          +94782075897
+        </span>
 
-          <span class="flex flex-row my-2">
-            <img src="./phone.svg" alt="Phone Icon" class="px-5 icon-scroll" />
-            <a href="https://wa.me/94782075897" class="underline"> whatsapp</a>
-          </span>
+        <span class="flex flex-row w-1/2">
+          <img src="./phone.svg" alt="Phone Icon" class="px-5 icon-scroll" />
+          <a href="https://wa.me/94782075897" class="underline"> whatsapp</a>
+        </span>
 
-          <span class="flex flex-row my-2">
-            <img src="./mail.svg" alt="Mail Icon" class="px-5 icon-scroll" />
-            charuka@pm.me
-          </span>
+        <span class="flex flex-row w-1/2">
+          <img src="./mail.svg" alt="Mail Icon" class="px-5 icon-scroll" />
+          charuka@pm.me
+        </span>
 
-          <span class="flex flex-row my-2">
-            <img
-              src="./discord.svg"
-              alt="Discord Icon"
-              class="px-5 icon-scroll"
-            />
-            yxka#9995
-          </span>
-        </div>
+        <span class="flex flex-row w-1/2">
+          <img
+            src="./discord.svg"
+            alt="Discord Icon"
+            class="px-5 icon-scroll"
+          />
+          yxka#9995
+        </span>
       </div>
     </section>
 
